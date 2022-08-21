@@ -1,0 +1,42 @@
+body{
+
+background-color:lightblue; 
+}
+
+
+.circle{
+    
+    width: 40vh;
+    height: 40vh;
+    background-color: black;
+    border-radius: 50%;
+    border-bottom: 120px solid #ff0066 ;
+    border-left: 120px solid #800000;
+    border-right: 120px solid #660066;
+    border-top:120px solid #666633;
+    margin: 0 auto;
+    transition: transform 5s cubic-bezier(0.1, 0.7, 1.0, 0.1), border 3s ease-in-out; background-color 10s ease;
+    
+}
+
+.active{
+    
+    transform: rotate(3690deg);
+    border-bottom-color: #ff6600;
+    border-left-color: #996600;
+    border-right-color: #ff99cc;
+    border-top-color: #33cc33;
+    background-color: silver;
+    
+}
+
+button{
+    
+    background-color: darkgoldenrod;
+    color: antiquewhite;
+    width: 200px;
+    height: 30px;
+    display: block;
+    margin: 30px auto;
+    border:none;
+}
